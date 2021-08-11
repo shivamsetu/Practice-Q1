@@ -1,0 +1,20 @@
+using System;
+namespace questions
+{
+     class Program3
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(sum(15, 15));
+            Console.WriteLine(sum(30, 25));
+            Console.WriteLine(sum(120, 425));
+            Console.ReadLine();
+        }
+
+      public static bool sum(int x, int y)
+        {
+            return x == 30 || y == 30 || (x + y == 30);
+            // operating in boolean. Conditon for x=30 or y=30 or x+y=30
+        }
+  }
+}
