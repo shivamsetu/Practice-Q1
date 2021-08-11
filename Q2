@@ -1,0 +1,24 @@
+using System;
+namespace question
+{
+     class Program2
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(diff(99));
+            // Let n=99; which is any number
+        }
+
+          public static int diff(int n)
+        {
+            const int x = 51;
+
+            if (n > x)
+            {
+                return (n - x)*3;
+            }
+            return x - n;
+            Console.ReadLine();
+        }
+    }
+}
